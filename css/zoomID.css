@@ -1,0 +1,14 @@
+/*ESTELA css ZOOM by ID*/
+ .zoomBtn {
+            background-color: #0090CB;
+            height: 50px;
+            width: 50px;
+			padding-bottom: 15px;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            font-size: 25pt;
+            cursor: pointer;
+        }
+ 

@@ -1,0 +1,24 @@
+/* ESTELA css WINDOW POP-UP HELP on hover over Link*/
+
+	div#container {
+	  width: 580px;
+	  margin: 100px auto 0 auto;
+	  padding: 20px;
+	  border: 1px solid #0000FF;
+	}
+
+	a {
+	  color: #FF0000;
+	}		
+
+	/* PopUp hover window */
+	div#pop-up {
+	  display: none;
+	  position: absolute;
+	  width: 280px;
+	  padding: 10px;
+	  background: #fff;
+	  color: #000;
+	  border: 1px solid #0000FF;
+	  font-size: 90%;
+	}

@@ -1,0 +1,2 @@
+1) position: absolute with left:0 causing problems so I changed it to position: relative
+2) carousel goes blank every once in a while

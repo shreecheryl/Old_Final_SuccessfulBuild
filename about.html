@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+<title>EZability</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/EZstyles.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/breadcrumb.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/rolloverZoom.css">
+	<link rel="stylesheet" type="text/css" href="css/zoomID.css">
+	<link rel="stylesheet" type="text/css" href="css/popUpHelpOnHover.css">
+	<link rel="stylesheet" type="text/css" href="css/ezaccordion-plugin.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/customStyles.css">
+	
+	<!-- JAVASCRIPT LINKS -->
+	<script src="https://use.fontawesome.com/b451a1c7e2.js"></script>
+
+</head>
+<body>
+    <header class="group">
+        <div class="carousel">
+            <ul class="panes">
+                <li><img src="images/labyrinth-forWeb.jpg" alt="labyrinth"></li>
+                <li><img src="images/headroll-forWeb.jpg" alt="head roll"></li>
+                <li><img src="images/child-walking-forWeb.jpg" alt="child learning to walk"></li>
+                <li><img src="images/bed-forWeb.jpg" alt="bed"></li>
+                <li><img src="images/labyrinth-forWeb.jpg" alt="labyrinth"></li>
+            </ul>
+        </div>
+        <nav class="nav-menu" id="nav-component">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown-menu">
+                    <a href="programs.html" class="dropbtn">Programs</a>
+                    <div class="dropdown-content">
+                        <a href="programs.html#sleep-better">Sleep Better Feel Better</a>
+                        <a href="programs.html#intelligent-evolution">Intelligent Evolution</a>
+                        <a href="programs.html#classes">Weekly Classes</a>
+                        <a href="programs.html#private-sessions">Private Sessions</a>
+                    </div>
+                </li>
+               <li class="active"><a href="contact.html">Contact Us</a></li>
+               <a href="#" class="menu-icon">&#9776;</a>
+            </ul>
+        </nav>
+   </header>
+    
+   <main class="group">
+       <div class="col col-8-12">
+               <h2>About Us</h2>
+               <hr>
+               <a class="zoomBtn plus"> + </a> 
+	           &nbsp;
+	           <a class="zoomBtn"> - </a>
+               <p>&nbsp;</p>
+               <div id="zoomThis">
+                   <p><strong>Shivani Jane</strong><br>
+                   <small><em>Certified Yoga Instructor and Therapist<br>
+                   Guild Certified Feldenkrais&reg; Practitioner</em></small></p>
+                   <p>Shivani Jane‘s passionate devotion to the healing arts and sciences is reflected in her lifetime of study and practice of holistic disciplines. With over 20 years of experience in natural therapies, she draws upon the foundational elements of Modern Day Ayurveda, Restorative Flow Yoga, Feldenkrais® of Somatic Education and other mindfulness based practices to cultivate awareness in everyday life. Resourceful in integrating this vast body of knowledge, she has created programs which offer you ways to discover divine states of your own being. Her programs and products honor the rhythms of nature and the ancient wisdom of Ayurveda, the sister science of Yoga, with an emphasis on the feminine practices taught by the Wise Earth School of Ayurveda. The organic synthesis of this whole systems approach forms the basis of a supportive environment in one’s everyday life that naturally brings about balance. You are invited to enjoy our grassroots community events and discover newfound choices through Self-care that will enrich your life force.</p>
+               </div>
+        </div>
+        <div class="col col-4-12">
+           <ul id="breadcrumbs">
+              <li>
+                <a href="#">You are here:<span class="arrow"></span></a>
+              </li>
+              <li>
+                <a href="index.html" class="odd">Home<span class="arrow"></span></a>
+              </li>
+              <li class="active">
+                &nbsp;&nbsp;About Us
+              </li>
+            </ul>
+       </div>
+   </main>
+   
+   <section>   
+       <footer>
+           <h4>Copyright &copy;2017. Attune to Move Feldenkrais. All rights reserved.</h4>
+       </footer>
+   </section>
+
+<!-- JQUERY CODE/LINKS -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/zoomID.js"></script>
+	<script type="text/javascript" src="js/popUpHelpOnHover.js"></script>
+	<script type="text/javascript" src="js/navBar.js"></script>
+    	<script src="js/ezaccordion-plugin.js"></script>
+	<script src="js/stickyNav.js"></script>
+   
+    <!-- SCRIPT TO INITIALIZE ACCORDION PLUGIN -->
+    <script>
+        $(function () {
+            $("#accordion").accordionPlugin();
+        })
+    </script>
+    <!-- END SCRIPT TO INITIALIZE ACCORDION PLUGIN -->
+</body>
+</html>

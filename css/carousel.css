@@ -1,0 +1,113 @@
+/* CAROUSEL */
+.carousel{
+  width:100%;
+  height: auto;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;   
+}
+   
+.panes{margin-top:-.3em;
+    list-style:none;
+    position:relative;
+    width:600%; /* Number of panes * 100% */
+    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+    animation: 35s linear infinite;
+    animation-fill-mode: forwards;
+            
+-webkit-animation:carousel 35s infinite;
+-moz-animation:carousel 35s infinite;
+-o-animation:carousel 35s infinite;
+-ms-animation:carousel 35s infinite;
+    
+}
+.panes > li{
+    position:relative;
+    float:left;
+    width:16.66%; /* 100 / number of panes */
+    
+}
+.carousel img{
+    display:block;
+    width:95%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right:4em;
+    max-width:100%;
+    
+}
+.carousel ul p    
+{text-align: center; line-height: 0;}
+  
+@-webkit-keyframes carousel{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+@-moz-keyframes carousel{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+@-o-keyframes carousel{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+.carousel img    {width:354px; height: auto;}
+}
+
+@media screen and (max-width:459px) {
+.carousel   {visibility: hidden; height: 0;margin: 0;}
+}

@@ -1,0 +1,41 @@
+/* ROLLOVER ZOOM */
+figcaption{
+    text-align: center;
+    border: solid 1px greenyellow;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 2em;
+    width: 30%;
+    padding: 2px;
+}
+#rollover {
+    width: 100%;
+	min-height: 200px;
+	width: 100%;
+}
+#rollover ul {
+	margin:0;
+    padding: 20px;
+    overflow: hidden;
+    list-style: none;  
+}
+#rollover ul li img{
+    width:320px;
+    padding: 10px 0;
+}
+#rollover ul li .zoom {
+    -webkit-transition: all .2s ease-in-out; 
+    -moz-transition: all .2s ease-in-out; 
+    -o-transition: all .2s ease-in-out; 
+    -ms-transition: all .2s ease-in-out; 
+}
+#rollover ul li .zoom:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}

@@ -1,0 +1,37 @@
+.carousel img {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+ul.panes {
+    margin-bottom: 0;
+}
+
+main {
+    margin-bottom: 3em;
+}
+
+footer {
+    height: auto; /*** updated from 50px so it is responsive ***/
+    padding: .5em 5%;  /*** needed so it matches the padding on the body ***/
+    background-color: #dedede;
+}
+
+.fixed ul li:first-child a {
+    padding-left: 0;   /*** fix alignment when navbar becomes fixed ***/
+}
+
+.fixed ul li:first-child {
+    padding-left: 5%;   /*** fix alignment when navbar becomes fixed ***/
+}
+
+h4 {
+    margin-top: 1rem; /*** updated so it matches margin-bottom ***/
+}
+
+figcaption {
+    width: auto; /*** original width: 30% causing problems ***/
+    padding: .05em 1em;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+<title>EZability</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/EZstyles.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/breadcrumb.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/rolloverZoom.css">
+	<link rel="stylesheet" type="text/css" href="css/zoomID.css">
+	<link rel="stylesheet" type="text/css" href="css/popUpHelpOnHover.css">
+	<link rel="stylesheet" type="text/css" href="css/ezaccordion-plugin.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/customStyles.css">
+	
+	<!-- JAVASCRIPT LINKS -->
+	<script src="https://use.fontawesome.com/b451a1c7e2.js"></script>
+
+</head>
+<body>
+    <header class="group">
+        <div class="carousel">
+            <ul class="panes">
+                <li><img src="images/labyrinth-forWeb.jpg" alt="labyrinth"></li>
+                <li><img src="images/headroll-forWeb.jpg" alt="head roll"></li>
+                <li><img src="images/child-walking-forWeb.jpg" alt="child learning to walk"></li>
+                <li><img src="images/bed-forWeb.jpg" alt="bed"></li>
+                <li><img src="images/labyrinth-forWeb.jpg" alt="labyrinth"></li>
+            </ul>
+        </div>
+        <nav class="nav-menu" id="nav-component">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown-menu">
+                    <a href="programs.html" class="dropbtn">Programs</a>
+                    <div class="dropdown-content">
+                        <a href="programs.html#sleep-better">Sleep Better Feel Better</a>
+                        <a href="programs.html#intelligent-evolution">Intelligent Evolution</a>
+                        <a href="programs.html#classes">Weekly Classes</a>
+                        <a href="programs.html#private-sessions">Private Sessions</a>
+                    </div>
+                </li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <a href="#" class="menu-icon">&#9776;</a>
+            </ul>
+        </nav>
+   </header>
+    
+   <main class="group">
+       <div class="col col-8-12">
+           <h1>Attune to Move</h1>
+           <h3>Cultivating Awareness Through Natural Movement</h3>
+           <hr>
+           <p>Attune to Move is for the brain that loves to learn and the body that loves to move. Attune your Self to new possibilities of pleasure throughout all phases of your life. Through gentle movement exploration you can witness remarkable transformations that naturally enhance the vitality of mind and body. Attune to Move offers holistic approaches that source the organic intelligence within your system to bring about growth, change and healing. Experience lessons and personal sessions that embody the neuroscience to improve your overall organization and quality of life.</p>
+           <p>You are invited to enjoy free Awareness through Movement lessons, come to a weekly class or schedule an individual session. The Feldenkrais&reg; Method for Somatic education, Somatic Experiencing&reg; for Stress and Trauma resolution and Child’Space&reg; for Empowering infants and parents are dynamic system approaches within a construct of awareness. Each of these methods has a unique perspective using the focus of Somatic experiencing to awaken fully to your potential.</p>
+        </div>
+        <div class="group col col-4-12">
+            <figure class="group ez-img"><img src="images/shivani-headshot3.jpg" alt="Shivani Jane" />
+                <figcaption>Shivani Jane Miller</figcaption>
+            </figure>
+            <hr>
+            <section id="accordion">
+                <h4 class="text-uppercase">Testimonials</h4>
+                    <section class="collapsible text-uppercase">Client 1</section>
+                    <div class="panel">
+                        <q><small>Feldenkrais is a gentle but decisive way to learn more about what makes our bodies work and sometimes sore. It has been an investment in lifelong health and awareness. It creates mindful movement and I love it!</small></q>
+                        <p><small>~ K.P.</small></p>
+                    </div>
+                    <section class="collapsible text-uppercase">Client 2</section>
+                    <div class="panel">
+                        <q><small>Shivani's Feldenkrais class is one of the hidden gems at LJYC. This class has opened my eyes to a whole new range of possibilities for yoga that don't seem to come out in the yoga classes themselves. And even after a long time of taking these classes I am still often surprised at the magnitude of physical change that I notice after doing such mild exercises that are the hallmark of Feldenkrais. I highly recommend Shivani to everyone and especially to anyone dealing with injuries or stubborn issues you find hard to shake.</small></q>
+                        <p><small>~ Bruce</small></p>
+                    </div>
+                    <section class="collapsible text-uppercase">Client 3</section>
+                    <div class="panel">
+                        <q><small>I have been taking Feldenkrais with Shivani steadily for the last 4 months. I found it to be amazingly transformative. It’s a mystery how it works but my classes with Shivani have “fixed” many of my physical problems - knee joint discomfort, neck tightness, shoulder stiffness and overall balance. Shivani “rings true” as a dedicated practitioner of Feldenkrais and her enthusiasm is contagious. I have told many of my friends about this class. I am a believer.</small></q>
+                        <p><small>~ Mary</small></p>
+                    </div>
+            </section>
+        </div>
+   </main>
+   
+   <section>   
+       <footer>
+           <h4>Copyright &copy;2017. Attune to Move Feldenkrais. All rights reserved.</h4>
+       </footer>
+   </section>
+
+<!-- JQUERY CODE/LINKS -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/zoomID.js"></script>
+	<script type="text/javascript" src="js/popUpHelpOnHover.js"></script>
+	<script type="text/javascript" src="js/navBar.js"></script>
+    	<script src="js/ezaccordion-plugin.js"></script>
+	<script src="js/stickyNav.js"></script>
+   
+    <!-- SCRIPT TO INITIALIZE ACCORDION PLUGIN -->
+    <script>
+        $(function () {
+            $("#accordion").accordionPlugin();
+        })
+    </script>
+    <!-- END SCRIPT TO INITIALIZE ACCORDION PLUGIN -->
+</body>
+</html>
