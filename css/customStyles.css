@@ -6,7 +6,7 @@
 }
 
 ul.panes {
-    margin-bottom: 0;
+    margin-bottom: 0; /*** to remove gap between carousel and nav bar ***/
 }
 
 main {
@@ -20,11 +20,11 @@ footer {
 }
 
 .fixed ul li:first-child a {
-    padding-left: 0;   /*** fix alignment when navbar becomes fixed ***/
+    padding-left: 0;   /*** fix alignment of text when navbar becomes fixed ***/
 }
 
 .fixed ul li:first-child {
-    padding-left: 5%;   /*** fix alignment when navbar becomes fixed ***/
+    padding-left: 5%;   /*** fix alignment  ot text when navbar becomes fixed ***/
 }
 
 h4 {
@@ -35,3 +35,19 @@ figcaption {
     width: auto; /*** original width: 30% causing problems ***/
     padding: .05em 1em;
 }
+
+.zoomBtn {
+    margin-bottom: 10px;  /*** so when the buttons stack there is space between them ***/
+}
+
+ul.sideNav {
+    margin-top: 50px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+ul.sideNav li a {
+    text-decoration: none;
+}
+
+
